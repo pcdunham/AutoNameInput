@@ -1,0 +1,12 @@
+C:\Users\pcdunham\PCD_Data\GitHub\AutoNameSlidersGHA\obj\Release\net7.0-windows\AutoNameSlidersGHA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pcdunham\PCD_Data\GitHub\AutoNameSlidersGHA\obj\Release\net7.0-windows\AutoNameSlidersGHA.AssemblyInfoInputs.cache
+C:\Users\pcdunham\PCD_Data\GitHub\AutoNameSlidersGHA\obj\Release\net7.0-windows\AutoNameSlidersGHA.AssemblyInfo.cs
+C:\Users\pcdunham\PCD_Data\GitHub\AutoNameSlidersGHA\obj\Release\net7.0-windows\AutoNameSlidersGHA.csproj.CoreCompileInputs.cache
+C:\Users\pcdunham\PCD_Data\GitHub\AutoNameSlidersGHA\obj\Release\net7.0-windows\AutoNameSlidersGHA.csproj.AssemblyReference.cache
+C:\Users\pcdunham\PCD_Data\GitHub\AutoNameSlidersGHA\bin\Release\net7.0-windows\AutoNameSliders.deps.json
+C:\Users\pcdunham\PCD_Data\GitHub\AutoNameSlidersGHA\bin\Release\net7.0-windows\AutoNameSliders.gha
+C:\Users\pcdunham\PCD_Data\GitHub\AutoNameSlidersGHA\bin\Release\net7.0-windows\AutoNameSliders.pdb
+C:\Users\pcdunham\PCD_Data\GitHub\AutoNameSlidersGHA\obj\Release\net7.0-windows\AutoNameSliders.gha
+C:\Users\pcdunham\PCD_Data\GitHub\AutoNameSlidersGHA\obj\Release\net7.0-windows\refint\AutoNameSliders.gha
+C:\Users\pcdunham\PCD_Data\GitHub\AutoNameSlidersGHA\obj\Release\net7.0-windows\AutoNameSliders.pdb
+C:\Users\pcdunham\PCD_Data\GitHub\AutoNameSlidersGHA\obj\Release\net7.0-windows\ref\AutoNameSliders.gha

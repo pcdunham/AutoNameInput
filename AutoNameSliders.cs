@@ -30,7 +30,8 @@ public sealed class AutoNameComponent : GH_Component
 
     public AutoNameComponent() : base("Auto Name Sliders", "AutoName",
         "Automatically set number slider nicknames to the names of connected inputs. Right-click to configure.",
-        "Params", "Util") { }
+        "Params", "Util")
+    { }
 
     public override Guid ComponentGuid => new("ADCA4DA5-91C8-4BE9-93B2-7536BC2D6F49");
     protected override Bitmap? Icon => null;
@@ -38,7 +39,7 @@ public sealed class AutoNameComponent : GH_Component
 
     protected override void RegisterInputParams(GH_InputParamManager p)
     {
-        p.AddBooleanParameter("Enable", "E", "Enable automatic naming.", GH_ParamAccess.item, true);
+        p.AddBooleanParameter("Enable", "E", "Enable automatic naming.", GH_ParamAccess.item, false);
         p.AddBooleanParameter("Run Now", "R", "Run a naming pass on demand (use a button).", GH_ParamAccess.item, false);
     }
 
@@ -122,9 +123,9 @@ public sealed class AutoNameComponent : GH_Component
         {
             _lastChanged = Rename(_watchedDocument);
             if (_lastChanged > 0)
-                {
-                    Grasshopper.Instances.ActiveCanvas?.Invalidate();
-                }
+            {
+                Grasshopper.Instances.ActiveCanvas?.Invalidate();
+            }
         }
         catch (Exception ex)
         {
@@ -135,7 +136,7 @@ public sealed class AutoNameComponent : GH_Component
 
     protected override void SolveInstance(IGH_DataAccess da)
     {
-        bool enabled = true, runNow = false;
+        bool enabled = false, runNow = false;
         da.GetData(0, ref enabled);
         da.GetData(1, ref runNow);
         _enabled = enabled;

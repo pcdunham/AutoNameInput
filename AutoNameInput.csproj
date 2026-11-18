@@ -5,10 +5,11 @@
     <UseWindowsForms>true</UseWindowsForms>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
-    <AssemblyName>AutoNameSliders</AssemblyName>
-    <RootNamespace>AutoNameSliders</RootNamespace>
+    <AssemblyName>AutoNameInput</AssemblyName>
+    <RootNamespace>AutoNameInput</RootNamespace>
     <TargetExt>.gha</TargetExt>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <Version>0.1.0</Version>
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
   </PropertyGroup>
   <ItemGroup>
